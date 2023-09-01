@@ -5,3 +5,59 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+$body-background-color: khaki;
+$body-text-color: rgb(10, 94, 10);
+$header-footer-background-color: rgb(10, 94, 10);
+$header-footer-text-color: khaki;
+
+
+  body{
+    background-color: $body-background-color;
+    color: $body-text-color;
+  }
+
+  header{
+    background-color:$header-footer-background-color;
+  }
+
+  footer{
+    background-color: $header-footer-background-color;
+  }
+  
+
+  .site-nav a{
+    color: $header-footer-text-color !important;
+  }
+
+ .site-title {
+    color:rgba(255, 111, 0, 0.911) !important;
+  }
+
+
+  h1, h2, h3, h4, h5, h6{
+    color: $body-text-color;
+  }
+
+  .post-header{
+    background-color: $body-background-color;
+  }
+
+  footer .footer-col{
+    color: $header-footer-text-color;
+  }
+
+  footer .p-name{
+    color: $header-footer-text-color;
+  }
+
+  footer .p-email{
+    color: $header-footer-text-color;
+  }
+
+  footer a{
+    color: $header-footer-text-color;
+  }
+
+  
